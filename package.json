@@ -1,6 +1,6 @@
 {
-  "name": "@intacct/intacct-sdk",
-  "version": "2.2.0",
+  "name": "tinkerspoof",
+  "version": "2.1.2",
   "description": "Sage Intacct SDK for JavaScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,12 +12,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/intacct/intacct-sdk-js.git"
+    "url": "git+https://github.com/intacct/intacct-sdk-js.git"
   },
-  "author": {
-    "name": "Sage Intacct, Inc.",
-    "url": "https://www.sageintacct.com"
-  },
+  "author": "Sage Intacct, Inc. (https://www.sageintacct.com)",
   "license": "Apache-2.0",
   "homepage": "https://developer.intacct.com",
   "bugs": {
@@ -30,7 +27,7 @@
     "/dist"
   ],
   "directories": {
-    "lib": "dist"
+    "test": "test"
   },
   "scripts": {
     "prebuild": "rimraf dist/*",
